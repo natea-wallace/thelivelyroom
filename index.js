@@ -4,7 +4,7 @@ const express=require('express'); //bring in express modules as a dependdencies 
 const passport=require('passport');
 const GoogleStrategy=require('passport-google-oauth20').Strategy;
 const keys=require('./config/keys.js');
-
+ 
 const app=express(); //create an express application, called 'app'
 
 
